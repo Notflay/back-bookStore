@@ -1,0 +1,10 @@
+# enviroment variables
+.env
+
+.babelrc
+
+# node independecies
+node_modules
+
+#build folder
+dist
