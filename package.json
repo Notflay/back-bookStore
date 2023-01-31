@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "stardev": "node src/app.js",
     "dev": "nodemon src/app.js --exec babel-node",
     "build": "babel src -d dist",
     "start": "node dist/app.js"
