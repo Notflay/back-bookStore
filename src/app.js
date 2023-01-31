@@ -24,5 +24,7 @@ app.use(express.urlencoded({ extended: true }));
 
 app.use(indexRoutes);
 
-app.listen(process.env.PORT || 8000);
+const port = process.env.PORT || 8000;
+
+app.listen(port);
 console.log("server on port", 8000);
